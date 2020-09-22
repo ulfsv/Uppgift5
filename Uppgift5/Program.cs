@@ -6,7 +6,8 @@ namespace Uppgift5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProgramHandler programHandler = new ProgramHandler();
+            programHandler.start();
         }
     }
 }
